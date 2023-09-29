@@ -267,9 +267,9 @@ setup();
 </script>
 <center>
 <p>Enter PGP key</p>
-<textarea id="public-key-input" style="max-width: 40%; width: 700px; height: 20%; max-height: 20%;" ></textarea>
+<textarea id="public-key-input" style="max-width: 40%; width: 700px; height: 400px" ></textarea>
 <br/><br/>
-<p>Or upload it from file:</p>
+<p>... or upload it from file:</p>
 <input type="file" id="public-key-file-input" /><br/><br/>
 <button onclick='evalPubKey();'>Check the key</button>
 <br/><br/>
@@ -280,6 +280,7 @@ setup();
 <div style="display:none;" id="check-question-div">
 <img src="question-mark.png" style="max-width: 10%;">
 <pre id="question-pre"></pre>
+<br/><br/>
 </div>
 </center>
 <pre id="public-key-pre">
